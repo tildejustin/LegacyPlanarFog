@@ -3,14 +3,8 @@
   "minVersion": "0.8",
   "package": "com.redlimerl.zbufferfog.mixin",
   "compatibilityLevel": "JAVA_8",
-  "plugin": "com.redlimerl.zbufferfog.MixinPlugin",
   "mixins": [
-    "MixinBackgroundRenderer_13",
-    "MixinBackgroundRenderer_3to8",
-    "MixinBackgroundRenderer_9to12"
-  ],
-  "client": [
-    "MixinBackgroundRenderer_14"
+    "BackgroundRendererMixin"
   ],
   "injectors": {
     "defaultRequire": 1

@@ -5,7 +5,8 @@
   "name": "ZBufferFog",
   "authors": [
     "RedLime",
-    "VoidXWalker"
+    "VoidXWalker",
+    "tildejustin"
   ],
   "environment": "client",
   "mixins": [
