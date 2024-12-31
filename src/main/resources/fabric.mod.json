@@ -7,6 +7,10 @@
     "RedLime",
     "VoidXWalker"
   ],
+  "contributors": [
+    "crazysmc",
+    "tildejustin"
+  ],
   "environment": "client",
   "mixins": [
     "z-buffer.fog.mixins.json"
