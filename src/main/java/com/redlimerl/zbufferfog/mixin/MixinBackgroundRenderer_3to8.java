@@ -30,7 +30,8 @@ public class MixinBackgroundRenderer_3to8 {
     @Inject(method = "method_1342", remap = false,
             at = { @At(value = "INVOKE", target = "Lnet/minecraft/class_2403;method_9801(FFFF)V"),
                     @At(value = "INVOKE", target = "Lorg/lwjgl/opengl/GL11;glClearColor(FFFF)V"),
-                    @At(value = "INVOKE", target = "Lnet/optifine/shaders/Shaders;setClearColor(FFFF)V") }, require = 1)
+                    @At(value = "INVOKE", target = "Lnet/optifine/shaders/Shaders;setClearColor(FFFF)V"),
+                    @At(value = "INVOKE", target = "Lshadersmod/client/Shaders;setClearColor(FFFF)V") }, require = 1)
     private void handleNaNIntensity(CallbackInfo ci) {
         if (Float.isNaN(field_1856)) {
             field_1856 = 0;
